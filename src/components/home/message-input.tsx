@@ -1,4 +1,4 @@
-import { Laugh, Mic, Plus, Send } from "lucide-react";
+import { Laugh, Mic, Send } from "lucide-react";
 import { Input } from "../ui/input";
 import { useState } from "react";
 import { Button } from "../ui/button";
