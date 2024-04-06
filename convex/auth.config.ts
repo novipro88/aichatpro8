@@ -1,7 +1,7 @@
 const authConfig = {
   providers: [
     {
-      domain: "https://busy-hermit-35.clerk.accounts.dev",
+      domain: process.env.CLERK_APP_DOMAIN,
       applicationID: "convex",
     },
   ],
