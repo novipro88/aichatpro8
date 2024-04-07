@@ -2,8 +2,18 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      { hostname: "confident-sheep-220.convex.cloud" },
-      { hostname: "oaidalleapiprodscus.blob.core.windows.net" },
+      {
+        protocol: "https",
+        hostname: "confident-sheep-220.convex.cloud",
+      },
+      {
+        protocol: "https",
+        hostname: "accomplished-viper-220.convex.cloud",
+      },
+      {
+        protocol: "https",
+        hostname: "oaidalleapiprodscus.blob.core.windows.net",
+      },
     ],
   },
 };
