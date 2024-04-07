@@ -192,7 +192,7 @@ const UserListDialog = () => {
           ))}
         </div>
         <div className="flex justify-between">
-          <Button variant={"outline"}>Cancel</Button>
+          {/* <Button variant={"outline"}>Cancel</Button> */}
           <Button
             onClick={handleCreateConversation}
             disabled={
